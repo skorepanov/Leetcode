@@ -6,7 +6,11 @@ public class Solution1
     {
         var solution = new Solution();
 
-        #region Solution 54
+        #region Solution 57
+        //var result = solution.AddBinary("100", "110010");
+        #endregion
+
+        #region Solution 498
         //  int[][] array1 =
         //  {
         //      new [] { 1, 2, 3 },
@@ -57,7 +61,7 @@ public class Solution1
         #endregion
 
         #region Solution 118
-        var result = solution.Generate(5);
+        //var result = solution.Generate(5);
         #endregion
     }
 
