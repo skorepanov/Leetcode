@@ -6,6 +6,10 @@ public class Solution1
     {
         var solution = new Solution();
 
+        #region Solution 14
+        //var result = solution.LongestCommonPrefix(new [] { "flower","flow","flight" });
+        #endregion
+
         #region Solution 57
         //var result = solution.AddBinary("100", "110010");
         #endregion
