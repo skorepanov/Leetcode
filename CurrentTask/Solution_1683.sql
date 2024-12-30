@@ -1,4 +1,4 @@
-﻿-- Write your PostgreSQL query statement below
+﻿-- 1683. Invalid Tweets
 select tweet_id
 from tweets
 where length(content) > 15

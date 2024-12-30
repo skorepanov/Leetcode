@@ -68,16 +68,4 @@ public class Solution1
         //var result = solution.Generate(5);
         #endregion
     }
-
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
-
-        public ListNode(int x)
-        {
-            val = x;
-            next = null;
-        }
-    }
 }
