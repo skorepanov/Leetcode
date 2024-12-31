@@ -5,6 +5,14 @@ public class Solution1
     public static void Main()
     {
         var solution = new Solution();
+    }
+
+    //public static void Main()
+    //{
+        #region Solution 344
+        // var s = new [] { '1', '2', '3', '4', '5' };
+        // solution.ReverseString(s);
+        #endregion
 
         #region Solution 14
         //var result = solution.LongestCommonPrefix(new [] { "flower","flow","flight" });
@@ -67,5 +75,5 @@ public class Solution1
         #region Solution 118
         //var result = solution.Generate(5);
         #endregion
-    }
+    //}
 }
