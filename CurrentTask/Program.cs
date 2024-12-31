@@ -9,6 +9,12 @@ public class Solution1
 
     //public static void Main()
     //{
+        #region Solution 561
+        // //var nums = new int[] { 1, 4, 3, 2 };
+        // var nums = new int[] { 6, 2, 6, 5, 1, 2 };
+        // var result = solution.ArrayPairSum(nums);
+        #endregion
+
         #region Solution 344
         // var s = new [] { '1', '2', '3', '4', '5' };
         // solution.ReverseString(s);
