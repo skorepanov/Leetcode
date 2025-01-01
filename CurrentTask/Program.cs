@@ -7,6 +7,10 @@ public class Solution1
         var solution = new Solution();
     }
 
+    #region Solution 557
+    //var result = solution.ReverseWords("Let's take LeetCode contest");
+    #endregion
+
     #region Solution 151
     //var result = solution.ReverseWords("  hello      world  ");
     #endregion
