@@ -7,6 +7,10 @@ public class Solution1
         var solution = new Solution();
     }
 
+    #region Solution 151
+    //var result = solution.ReverseWords("  hello      world  ");
+    #endregion
+
     #region Solution 119
     //var result = solution.GetRow(5);
     #endregion
