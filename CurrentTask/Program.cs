@@ -7,6 +7,14 @@ public class Solution1
         var solution = new Solution();
     }
 
+    #region Solution 147
+    // var listNode3 = new ListNode(3);
+    // var listNode2 = new ListNode(1, listNode3);
+    // var listNode1 = new ListNode(2, listNode2);
+    // var listNode0 = new ListNode(4, listNode1);
+    // var result = solution.InsertionSortList(listNode0);
+    #endregion
+
     #region Solution 557
     //var result = solution.ReverseWords("Let's take LeetCode contest");
     #endregion
