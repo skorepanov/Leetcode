@@ -7,6 +7,11 @@ public class Solution1
         var solution = new Solution();
     }
 
+    #region Solution 912
+    // var nums = new [] { 20, 10, 15, 5, 1, 3, 2 };
+    // var result = solution.SortArray(nums);
+    #endregion
+
     #region Solution 147
     // var listNode3 = new ListNode(3);
     // var listNode2 = new ListNode(1, listNode3);
