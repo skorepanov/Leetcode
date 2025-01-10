@@ -7,6 +7,11 @@ public class Solution1
         var solution = new Solution();
     }
 
+    #region Solution 1200
+    // var arr = new[] { -25, -51, -29, -23, 57, -18 };
+    // var result = solution.MinimumAbsDifference(arr);
+    #endregion
+
     #region Solution 215
     // var nums = new [] { 3, 2, 1, 5, 6, 4 };
     // var result = solution.FindKthLargest(nums, 2);
