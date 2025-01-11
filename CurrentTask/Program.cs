@@ -7,6 +7,11 @@ public class Solution1
         var solution = new Solution();
     }
 
+    #region Solution 347
+    // var nums = new[] { 4, 1, -1, 2, -1, 2, 3 };
+    // var result = solution.TopKFrequent(nums, k: 2);
+    #endregion
+
     #region Solution 2343
     // var nums = new[] { "102", "473", "251", "814" };
     // var queries = new[]
