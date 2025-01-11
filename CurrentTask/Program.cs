@@ -7,6 +7,18 @@ public class Solution1
         var solution = new Solution();
     }
 
+    #region Solution 2343
+    // var nums = new[] { "102", "473", "251", "814" };
+    // var queries = new[]
+    // {
+    //     new int[] { 1, 1 },
+    //     new int[] { 2, 3 },
+    //     new int[] { 4, 2 },
+    //     new int[] { 1, 2 }
+    // };
+    // var result = solution.SmallestTrimmedNumbers(nums, queries);
+    #endregion
+
     #region Solution 1200
     // var arr = new[] { -25, -51, -29, -23, 57, -18 };
     // var result = solution.MinimumAbsDifference(arr);
