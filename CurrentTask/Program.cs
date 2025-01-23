@@ -7,6 +7,25 @@ public class Solution1
         var solution = new Solution();
     }
 
+    #region Solution 705
+    // var myHashSet = new MyHashSet();
+    // myHashSet.Add(1);
+    // myHashSet.Add(2);
+    // var result1 = myHashSet.Contains(1);
+    // var result2 = myHashSet.Contains(3);
+    // myHashSet.Add(2);
+    // var result3 = myHashSet.Contains(2);
+    // myHashSet.Remove(2);
+    // var result4 = myHashSet.Contains(2);
+    //
+    // myHashSet.Add(0);
+    // var result5 = myHashSet.Contains(0);
+    // myHashSet.Add(1000000);
+    // var result6 = myHashSet.Contains(1000000);
+    // myHashSet.Add(33003);
+    // var result7 = myHashSet.Contains(33003);
+    #endregion
+
     #region Solution 347
     // var nums = new[] { 4, 1, -1, 2, -1, 2, 3 };
     // var result = solution.TopKFrequent(nums, k: 2);
