@@ -1,29 +1,6 @@
 ﻿// 136. Single Number
 namespace CurrentTask;
 
-#region 2 вариант - с помощью XOR
-public class Solution_136_2
-{
-    /*
-    a⊕0=a
-    a⊕a=0
-    a⊕b⊕a=(a⊕a)⊕b=0⊕b=b
-    */
-
-    public int SingleNumber(int[] nums)
-    {
-        var a = 0;
-
-        foreach (var num in nums)
-        {
-            a ^= num;
-        }
-
-        return a;
-    }
-}
-#endregion
-
 #region 1 вариант - с помощью HashSet
 public class Solution_136_1
 {
@@ -44,6 +21,29 @@ public class Solution_136_1
         }
 
         return hashset.First();
+    }
+}
+#endregion
+
+#region 2 вариант - с помощью XOR
+public class Solution_136_2
+{
+    /*
+    a⊕0=a
+    a⊕a=0
+    a⊕b⊕a=(a⊕a)⊕b=0⊕b=b
+    */
+
+    public int SingleNumber(int[] nums)
+    {
+        var a = 0;
+
+        foreach (var num in nums)
+        {
+            a ^= num;
+        }
+
+        return a;
     }
 }
 #endregion
