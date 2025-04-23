@@ -7,6 +7,12 @@ public class Solution1
         var solution = new Solution();
     }
 
+    #region Solution 706
+    // var myHashMap = new MyHashMap();
+    // myHashMap.Put(1, 1);
+    // var result1 = myHashMap.Get(1);
+    #endregion
+
     #region Solution 705
     // var myHashSet = new MyHashSet();
     // myHashSet.Add(1);
