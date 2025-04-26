@@ -1,4 +1,6 @@
-﻿//var solution = new Solution();
+﻿using CurrentTask;
+
+//var solution = new Solution();
 
 #region Solution 706
 // var myHashMap = new MyHashMap();
