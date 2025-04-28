@@ -1,7 +1,7 @@
 ﻿// 219. Contains Duplicate II
 namespace CurrentTask;
 
-public class Solution
+public class Solution_219
 {
     public bool ContainsNearbyDuplicate(int[] nums, int k)
     {
