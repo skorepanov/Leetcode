@@ -2,6 +2,19 @@
 
 //var solution = new Solution();
 
+#region Solution 652
+// solution.FindDuplicateSubtrees(
+//     new TreeNode(1,
+//         new TreeNode(2,
+//             new TreeNode(4, null, null),
+//             null),
+//         new TreeNode(3,
+//             new TreeNode(2,
+//                 new TreeNode(4, null, null),
+//                 null),
+//             new TreeNode(4, null, null))));
+#endregion
+
 #region Solution 36
 // solution.IsValidSudoku(
 //     [['.','.','4', '.','.','.', '6','3','.'],
