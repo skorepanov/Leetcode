@@ -2,6 +2,19 @@
 
 //var solution = new Solution();
 
+#region Solution 380
+// var solution = new RandomizedSet();
+// solution.Insert(1);
+// solution.Insert(10);
+// solution.Insert(20);
+// solution.Insert(30);
+// var r = solution.GetRandom();
+// r = solution.GetRandom();
+// r = solution.GetRandom();
+// r = solution.GetRandom();
+// r = solution.GetRandom();
+#endregion
+
 #region Solution 288
 //var solution = new ValidWordAbbr(["ValidWordAbbr", "isUnique", "isUnique", "isUnique", "isUnique", "isUnique"]);
 #endregion
