@@ -2,6 +2,16 @@
 
 //var solution = new Solution();
 
+#region Solution 622
+// MyCircularQueue obj = new MyCircularQueue(6);
+// var param_1 = obj.EnQueue(6);
+// var param_2 = obj.Rear();
+// var param_3 = obj.Rear();
+// var param_4 = obj.DeQueue();
+// var param_5 = obj.EnQueue(5); // дб true
+// var param_6 = obj.EnQueue(5);
+#endregion
+
 #region Solution 380
 // var solution = new RandomizedSet();
 // solution.Insert(1);
