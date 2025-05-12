@@ -2,6 +2,14 @@
 
 //var solution = new Solution();
 
+#region Solution 346
+// var queue = new MovingAverage(3);
+// queue.Next(1);
+// queue.Next(10);
+// queue.Next(3);
+// queue.Next(5);
+#endregion
+
 #region Solution 622
 // MyCircularQueue obj = new MyCircularQueue(6);
 // var param_1 = obj.EnQueue(6);
