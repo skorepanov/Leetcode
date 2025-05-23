@@ -2,6 +2,22 @@
 
 //var solution = new Solution();
 
+#region Solution 286
+// var rooms = new int[][]
+// {
+//     [2147483647, -1, 0, 2147483647],
+//     [2147483647, 2147483647, 2147483647, -1],
+//     [2147483647, -1, 2147483647, -1],
+//     [0, -1, 2147483647, 2147483647]
+// };
+// var rooms = new int[][]
+// {
+//     [2147483647, 2147483647],
+//     [2147483647, 2147483647]
+// };
+//solution.WallsAndGates(rooms);
+#endregion
+
 #region Solution 346
 // var queue = new MovingAverage(3);
 // queue.Next(1);
