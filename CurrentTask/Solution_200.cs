@@ -1,7 +1,7 @@
 ﻿// 200. Number of Islands
 namespace CurrentTask;
 
-public class Solution
+public class Solution_200
 {
     private const char NON_VISITED_ISLAND = '1';
     private const char VISITED_ISLAND = '2';

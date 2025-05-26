@@ -2,6 +2,10 @@
 
 //var solution = new Solution();
 
+#region Solution 752
+//var result = solution.OpenLock(["0201", "0101", "0102", "1212", "2002"], "0202");
+#endregion
+
 #region Solution 200
 // var grid = new char[][]
 // {
