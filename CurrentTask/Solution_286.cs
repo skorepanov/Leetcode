@@ -1,4 +1,6 @@
-﻿#region 1 вариант - считать пути отдельно для каждых ворот - Runtime 135 ms, Beats 5,69%
+﻿// 286. Walls and Gates
+
+#region 1 вариант - считать пути отдельно для каждых ворот - Runtime 135 ms, Beats 5,69%
 public class Solution_286_1
 {
     public void WallsAndGates(int[][] rooms)
