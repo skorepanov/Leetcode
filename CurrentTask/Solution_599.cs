@@ -1,6 +1,4 @@
 ﻿// 599. Minimum Index Sum of Two Lists
-namespace CurrentTask;
-
 #region Вариант 1 - Runtime 18 ms, Beats 35.80%
 public class Solution_599_1
 {

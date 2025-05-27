@@ -1,5 +1,4 @@
 ﻿// 622. Design Circular Queue
-namespace CurrentTask;
 
 /**
  * Your MyCircularQueue object will be instantiated and called as such:

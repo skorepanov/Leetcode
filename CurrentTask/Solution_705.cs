@@ -1,5 +1,4 @@
 ﻿// 705. Design HashSet
-namespace CurrentTask;
 
 /**
  * Your MyHashSet object will be instantiated and called as such:

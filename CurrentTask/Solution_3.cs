@@ -1,6 +1,4 @@
 ﻿// 3. Longest Substring Without Repeating Characters
-namespace CurrentTask;
-
 #region Вариант 1 (мой) - Runtime 79 ms, Beats 12.80%
 public class Solution_3_1
 {

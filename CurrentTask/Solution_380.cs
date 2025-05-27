@@ -1,5 +1,4 @@
 ﻿// 380. Insert Delete GetRandom O(1)
-namespace CurrentTask;
 
 /**
  * Your RandomizedSet object will be instantiated and called as such:

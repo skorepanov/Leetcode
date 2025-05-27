@@ -1,6 +1,4 @@
 ﻿// 387. First Unique Character in a String
-namespace CurrentTask;
-
 #region Вариант 1 - Runtime 105 ms, Beats 5.02%
 public class Solution_387_1
 {

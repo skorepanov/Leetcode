@@ -1,8 +1,6 @@
 ﻿// 14. Longest Common Prefix
 using System.Text;
 
-namespace CurrentTask;
-
 public class Solution_14
 {
     public string LongestCommonPrefix(string[] strs)

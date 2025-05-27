@@ -1,6 +1,4 @@
 ﻿// 1. Two Sum
-namespace CurrentTask;
-
 #region Вариант 1 - Runtime 7 ms, Beats 53.50%
 public class Solution_1_1
 {

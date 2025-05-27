@@ -1,6 +1,4 @@
 ﻿// 136. Single Number
-namespace CurrentTask;
-
 #region 1 вариант - с помощью HashSet
 public class Solution_136_1
 {

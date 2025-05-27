@@ -1,6 +1,4 @@
 ﻿// 912. Sort an Array
-namespace CurrentTask;
-
 public class Solution_912
 {
     public int[] SortArray(int[] nums)

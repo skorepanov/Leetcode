@@ -1,6 +1,4 @@
 ﻿// 119. Pascal's Triangle II
-namespace CurrentTask;
-
 public class Solution_119
 {
     public IList<int> GetRow(int rowIndex)

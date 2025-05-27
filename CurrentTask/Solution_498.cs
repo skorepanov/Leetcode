@@ -1,6 +1,4 @@
 ﻿// 498. Diagonal Traverse
-namespace CurrentTask;
-
 public class Solution_498
 {
     public int[] FindDiagonalOrder(int[][] mat)

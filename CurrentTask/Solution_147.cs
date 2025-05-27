@@ -1,6 +1,4 @@
 ﻿// 147. Insertion Sort List
-namespace CurrentTask;
-
 public class Solution_147
 {
     public ListNode InsertionSortList(ListNode head)

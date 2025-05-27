@@ -1,5 +1,4 @@
 ﻿// 170. Two Sum III - Data structure design
-namespace CurrentTask;
 
 /**
  * Your TwoSum object will be instantiated and called as such:

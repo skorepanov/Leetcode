@@ -1,6 +1,4 @@
 ﻿// 249. Group Shifted Strings
-namespace CurrentTask;
-
 public class Solution_249
 {
     public IList<IList<string>> GroupStrings(string[] strings)

@@ -1,6 +1,4 @@
 ﻿// 350. Intersection of Two Arrays II
-namespace CurrentTask;
-
 #region Вариант 1 - Runtime 3 ms, Beats 31.09%
 public class Solution_350_1
 {

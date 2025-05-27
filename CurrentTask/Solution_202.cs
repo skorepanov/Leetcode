@@ -1,6 +1,4 @@
 ﻿// 202. Happy Number
-namespace CurrentTask;
-
 public class Solution_202
 {
     public bool IsHappy(int n)

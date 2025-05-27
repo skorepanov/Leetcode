@@ -1,6 +1,4 @@
 ﻿// 217. Contains Duplicate
-namespace CurrentTask;
-
 public class Solution_217
 {
     public bool ContainsDuplicate(int[] nums)

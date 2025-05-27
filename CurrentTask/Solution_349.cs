@@ -1,6 +1,4 @@
 ﻿// 349. Intersection of Two Arrays
-namespace CurrentTask;
-
 #region 1 вариант - Intersect & Distinct - Runtime 5ms, Beats 31.81%
 public class Solution_349_1
 {

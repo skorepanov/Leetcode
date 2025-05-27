@@ -1,6 +1,4 @@
 ﻿// 167. Two Sum II - Input Array Is Sorted
-namespace CurrentTask;
-
 public class Solution_167
 {
     public int[] TwoSum(int[] numbers, int target)

@@ -1,6 +1,4 @@
 ﻿// 118. Pascal's Triangle
-namespace CurrentTask;
-
 public class Solution_118
 {
     public IList<IList<int>> Generate(int numRows)

@@ -1,6 +1,4 @@
 ﻿// 67. Add Binary
-namespace CurrentTask;
-
 public class Solution_67
 {
     public string AddBinary(string a, string b)

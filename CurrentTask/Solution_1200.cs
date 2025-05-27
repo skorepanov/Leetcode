@@ -1,6 +1,4 @@
 ﻿// 1200. Minimum Absolute Difference
-namespace CurrentTask;
-
 public class Solution_1200
 {
     public IList<IList<int>> MinimumAbsDifference(int[] arr)

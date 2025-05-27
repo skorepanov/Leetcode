@@ -1,6 +1,4 @@
 ﻿// 215. Kth Largest Element in an Array
-namespace CurrentTask;
-
 public class Solution_215
 {
     public int FindKthLargest(int[] nums, int k) {

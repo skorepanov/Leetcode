@@ -1,6 +1,4 @@
 ﻿// 454. 4Sum II
-namespace CurrentTask;
-
 #region Вариант 1 - Runtime 131 ms, Beats 6.19%
 public class Solution_454_1
 {

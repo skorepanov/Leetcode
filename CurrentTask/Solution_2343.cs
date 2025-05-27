@@ -1,6 +1,4 @@
 ﻿// 2343. Query Kth Smallest Trimmed Number
-namespace CurrentTask;
-
 public class Solution_2343
 {
     public int[] SmallestTrimmedNumbers(string[] nums, int[][] queries)

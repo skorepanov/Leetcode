@@ -1,6 +1,4 @@
 ﻿// 557. Reverse Words in a String III
-namespace CurrentTask;
-
 public class Solution_557
 {
     public string ReverseWords(string s)

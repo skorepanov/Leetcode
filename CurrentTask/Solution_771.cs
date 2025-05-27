@@ -1,6 +1,4 @@
 ﻿// 771. Jewels and Stones
-namespace CurrentTask;
-
 #region Вариант 1 - Runtime 0 ms, Beats 100.00%
 public class Solution_771_1
 {

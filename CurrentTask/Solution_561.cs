@@ -1,6 +1,4 @@
 ﻿// 561. Array Partition
-namespace CurrentTask;
-
 public class Solution_561
 {
     public int ArrayPairSum(int[] nums)

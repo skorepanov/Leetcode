@@ -1,6 +1,4 @@
 ﻿// 49. Group Anagrams
-namespace CurrentTask;
-
 public class Solution_49
 {
     public IList<IList<string>> GroupAnagrams(string[] strs)

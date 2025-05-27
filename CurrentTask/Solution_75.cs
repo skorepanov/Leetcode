@@ -1,6 +1,4 @@
 ﻿// 75. Sort Colors
-namespace CurrentTask;
-
 public class Solution_75
 {
     public void SortColors(int[] nums)

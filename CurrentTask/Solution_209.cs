@@ -1,6 +1,4 @@
 ﻿// 209. Minimum Size Subarray Sum
-namespace CurrentTask;
-
 public class Solution_209
 {
     public int MinSubArrayLen(int target, int[] nums)

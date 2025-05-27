@@ -1,5 +1,4 @@
 ﻿// 346. Moving Average from Data Stream
-namespace CurrentTask;
 
 /**
  * Your MovingAverage object will be instantiated and called as such:

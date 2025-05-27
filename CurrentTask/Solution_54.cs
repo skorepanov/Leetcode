@@ -1,6 +1,4 @@
 ﻿// 54. Spiral Matrix
-namespace CurrentTask;
-
 public class Solution_54
 {
     public IList<int> SpiralOrder(int[][] matrix)

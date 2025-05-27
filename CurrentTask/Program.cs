@@ -1,6 +1,4 @@
-﻿using CurrentTask;
-
-//var solution = new Solution();
+﻿//var solution = new Solution();
 
 #region Solution 279
 //var result = solution.NumSquares(13);

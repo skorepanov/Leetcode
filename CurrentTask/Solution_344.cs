@@ -1,6 +1,4 @@
 ﻿// 344. Reverse String
-namespace CurrentTask;
-
 public class Solution_344
 {
     public void ReverseString(char[] s)

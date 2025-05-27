@@ -1,6 +1,4 @@
 ﻿// 205. Isomorphic Strings
-namespace CurrentTask;
-
 #region Вариант 1 - Runtime 12 ms, Beats 43.87%
 public class Solution_205_1
 {

@@ -1,5 +1,4 @@
-﻿namespace CurrentTask;
-
+﻿// 36. Valid Sudoku
 #region Вариант 1 (мой) - Runtime 3 ms, Beats 58.21%
 public class Solution_36_1
 {

@@ -1,5 +1,4 @@
 ﻿// 288. Unique Word Abbreviation
-namespace CurrentTask;
 
 /**
  * Your ValidWordAbbr object will be instantiated and called as such:

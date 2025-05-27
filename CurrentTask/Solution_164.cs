@@ -1,6 +1,4 @@
 ﻿// 164. Maximum Gap
-namespace CurrentTask;
-
 public class Solution_164
 {
     private const int NUM_DIGITS = 10;

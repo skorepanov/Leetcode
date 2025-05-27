@@ -1,6 +1,4 @@
 ﻿// 347. Top K Frequent Elements
-namespace CurrentTask;
-
 public class Solution_347
 {
     public int[] TopKFrequent(int[] nums, int k)

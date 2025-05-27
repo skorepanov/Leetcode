@@ -1,5 +1,4 @@
 ﻿// 706. Design HashMap
-namespace CurrentTask;
 
 /**
  * Your MyHashMap object will be instantiated and called as such:

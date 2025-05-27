@@ -1,5 +1,4 @@
 ﻿// 359. Logger Rate Limiter
-namespace CurrentTask;
 
 /*
  * Your Logger object will be instantiated and called as such:

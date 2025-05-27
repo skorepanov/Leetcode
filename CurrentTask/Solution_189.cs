@@ -1,6 +1,4 @@
 ﻿// 189. Rotate Array
-namespace CurrentTask;
-
 public class Solution_189
 {
     public void Rotate(int[] nums, int k)
