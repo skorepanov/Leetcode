@@ -1,5 +1,5 @@
 ﻿// 20. Valid Parentheses
-public class Solution
+public class Solution_20
 {
     public bool IsValid(string s)
     {
