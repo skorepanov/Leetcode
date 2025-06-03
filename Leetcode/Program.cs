@@ -1,5 +1,17 @@
 ﻿//var solution = new Solution();
 
+#region Solution 133
+// var node1 = new Node(1);
+// var node2 = new Node(2);
+// var node3 = new Node(3);
+// var node4 = new Node(4);
+// node1.neighbors = new List<Node> { node2, node4 };
+// node2.neighbors = new List<Node> { node1, node3 };
+// node3.neighbors = new List<Node> { node2, node4 };
+// node4.neighbors = new List<Node> { node1, node3 };
+// var result = solution.CloneGraph(node1);
+#endregion
+
 #region Solution 155
 // var stack = new MinStack();
 // stack.Push(-2);
