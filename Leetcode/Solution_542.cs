@@ -1,6 +1,8 @@
-﻿// 733. Flood Fill
-public class Solution_733
+﻿// 542. 01 Matrix
+public class Solution_542
 {
+    const int NOT_VISITED = -1;
+
     private readonly int[][] _directions =
     [
         [1, 0],
@@ -9,23 +11,27 @@ public class Solution_733
         [0, -1]
     ];
 
-    public int[][] FloodFill(int[][] image, int sr, int sc, int color)
+    public int[][] UpdateMatrix(int[][] mat)
     {
-        var colorToChange = image[sr][sc];
-
-        if (colorToChange == color)
-        {
-            return image;
-        }
-
-        var rowLength = image.Length;
-        var columnLength = image[0].Length;
-
-        var root = new Position(sr, sc);
-        image[root.X][root.Y] = color;
-
         var pendingPositions = new Queue<Position>();
-        pendingPositions.Enqueue(root);
+
+        var rowLength = mat.Length;
+        var columnLength = mat[0].Length;
+
+        for (var row = 0; row < rowLength; row++)
+        {
+            for (var column = 0; column < columnLength; column++)
+            {
+                if (mat[row][column] == 1)
+                {
+                    mat[row][column] = NOT_VISITED;
+                }
+                else
+                {
+                    pendingPositions.Enqueue(new Position(row, column));
+                }
+            }
+        }
 
         while (pendingPositions.Count > 0)
         {
@@ -38,19 +44,19 @@ public class Solution_733
 
                 if (nextRow < 0 || nextRow >= rowLength
                     || nextColumn < 0 || nextColumn >= columnLength
-                    || image[nextRow][nextColumn] != colorToChange)
+                    || mat[nextRow][nextColumn] != NOT_VISITED)
                 {
                     continue;
                 }
 
                 var nextPosition = new Position(nextRow, nextColumn);
-                image[nextPosition.X][nextPosition.Y] = color;
+                mat[nextRow][nextColumn] = mat[position.X][position.Y] + 1;
 
                 pendingPositions.Enqueue(nextPosition);
             }
         }
 
-        return image;
+        return mat;
     }
 
     private record Position(int X, int Y);
