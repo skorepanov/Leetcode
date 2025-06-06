@@ -1,5 +1,9 @@
 ﻿//var solution = new Solution();
 
+#region Solution 394
+//var result = solution.DecodeString("3[a2[c]]");
+#endregion
+
 #region Solution 133
 // var node1 = new Node(1);
 // var node2 = new Node(2);
