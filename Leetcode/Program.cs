@@ -1,5 +1,11 @@
 ﻿//var solution = new Solution();
 
+#region Solution 704
+// var kthLargest = new KthLargest(3, [4, 5, 8, 2]);
+// var result1_4 = kthLargest.Add(3);
+// var result2_5 = kthLargest.Add(4);
+#endregion
+
 #region Solution 394
 //var result = solution.DecodeString("3[a2[c]]");
 #endregion
