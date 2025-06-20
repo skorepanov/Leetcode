@@ -1,5 +1,5 @@
 ﻿// 1046. Last Stone Weight
-public class Solution
+public class Solution_1046
 {
     public int LastStoneWeight(int[] stones)
     {

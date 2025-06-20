@@ -1,5 +1,16 @@
 ﻿//var solution = new Solution();
 
+#region Solution 1337
+// var mat = new int[][]
+// {
+//     [1,0,0,0],
+//     [1,1,1,1],
+//     [1,0,0,0],
+//     [1,0,0,0]
+// };
+// var result = solution.KWeakestRows(mat, 2);
+#endregion
+
 #region Solution 704
 // var kthLargest = new KthLargest(3, [4, 5, 8, 2]);
 // var result1_4 = kthLargest.Add(3);
