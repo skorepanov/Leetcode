@@ -1,5 +1,9 @@
 ﻿//var solution = new Solution();
 
+#region Solution 973
+//var result = solution.KClosest([[-5, 4], [-6, -5], [4, 6]], 2);
+#endregion
+
 #region Solution 1337
 // var mat = new int[][]
 // {
