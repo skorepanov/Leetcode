@@ -1,5 +1,9 @@
 ﻿//var solution = new Solution();
 
+#region 1642
+//var result = solution.FurthestBuilding([4, 2, 7, 6, 9, 14, 12], 5, 1);
+#endregion
+
 #region Solution 973
 //var result = solution.KClosest([[-5, 4], [-6, -5], [4, 6]], 2);
 #endregion
