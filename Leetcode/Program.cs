@@ -1,6 +1,15 @@
 ﻿//var solution = new Solution();
 
-#region 1642
+#region Solution 295
+// var medianFinder = new MedianFinder();
+// medianFinder.AddNum(1);
+// medianFinder.AddNum(2);
+// var result1_5 = medianFinder.FindMedian();
+// medianFinder.AddNum(3);
+// var result2_0 = medianFinder.FindMedian();
+#endregion
+
+#region Solution 1642
 //var result = solution.FurthestBuilding([4, 2, 7, 6, 9, 14, 12], 5, 1);
 #endregion
 
