@@ -1,5 +1,10 @@
 ﻿//var solution = new Solution();
 
+#region Solution 704
+//var result = solution.Search(nums: [-1, 0, 3, 5, 9, 12], target: 9);
+//var result = solution.Search(nums: [2, 5], target: 0);
+#endregion
+
 #region Solution 295
 // var medianFinder = new MedianFinder();
 // medianFinder.AddNum(1);
