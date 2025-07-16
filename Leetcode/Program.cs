@@ -1,5 +1,13 @@
 ﻿//var solution = new Solution();
 
+#region Solution 33
+//solution.Search([4, 5, 6, 7, 0, 1, 2], 0);
+//solution.Search([5, 1, 3], 5);
+//solution.Search([1, 3], 0);
+//solution.Search([1, 3, 5], 0);
+//solution.Search([3, 1], -1);
+#endregion
+
 #region Solution 704
 //var result = solution.Search(nums: [-1, 0, 3, 5, 9, 12], target: 9);
 //var result = solution.Search(nums: [2, 5], target: 0);
