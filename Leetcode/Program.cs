@@ -1,5 +1,9 @@
 ﻿//var solution = new Solution();
 
+#region Solution 162
+//solution.FindPeakElement([6, 5, 4, 3, 2, 3, 2]);
+#endregion
+
 #region Solution 33
 //solution.Search([4, 5, 6, 7, 0, 1, 2], 0);
 //solution.Search([5, 1, 3], 5);
