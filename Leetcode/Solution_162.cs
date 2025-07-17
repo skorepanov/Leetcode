@@ -1,5 +1,5 @@
 ﻿// 162. Find Peak Element
-public class Solution
+public class Solution_162
 {
     public int FindPeakElement(int[] nums)
     {
