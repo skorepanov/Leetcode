@@ -1,5 +1,10 @@
 ﻿//var solution = new Solution();
 
+#region Solution 658
+//solution.FindClosestElements(arr: [1, 2, 3, 4, 5], k: 4, x: 3);
+//solution.FindClosestElements(arr: [1, 3], k: 1, x: 2);
+#endregion
+
 #region Solution 162
 //solution.FindPeakElement([6, 5, 4, 3, 2, 3, 2]);
 #endregion
