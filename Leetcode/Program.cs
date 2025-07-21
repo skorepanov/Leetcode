@@ -1,5 +1,12 @@
 ﻿//var solution = new Solution();
 
+#region Solution 50
+//solution.MyPow(x: 2, n: -2);
+//solution.MyPow(x: -2, n: 2);
+//solution.MyPow(x: 2, n: -2147483648);
+//solution.MyPow(x: 2, n: 10);
+#endregion
+
 #region Solution 658
 //solution.FindClosestElements(arr: [1, 2, 3, 4, 5], k: 4, x: 3);
 //solution.FindClosestElements(arr: [1, 3], k: 1, x: 2);
