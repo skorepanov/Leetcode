@@ -1,5 +1,10 @@
 ﻿//var solution = new Solution();
 
+#region Solution 367
+//solution.IsPerfectSquare(2147483647);
+//solution.IsPerfectSquare(1);
+#endregion
+
 #region Solution 50
 //solution.MyPow(x: 2, n: -2);
 //solution.MyPow(x: -2, n: 2);
