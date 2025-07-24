@@ -1,5 +1,9 @@
 ﻿//var solution = new Solution();
 
+#region Solution 349
+//solution.Intersection(nums1: [4, 9, 5], nums2: [9, 4, 9, 8, 4]);
+#endregion
+
 #region Solution 154
 //solution.FindMin(nums: [3, 3, 3, 3, 3, 3, 3, 3, 1, 3]);
 //solution.FindMin(nums: [1, 1]);
