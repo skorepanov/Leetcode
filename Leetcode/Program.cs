@@ -1,5 +1,10 @@
 ﻿//var solution = new Solution();
 
+#region Solution 154
+//solution.FindMin(nums: [3, 3, 3, 3, 3, 3, 3, 3, 1, 3]);
+//solution.FindMin(nums: [1, 1]);
+#endregion
+
 #region Solution 367
 //solution.IsPerfectSquare(2147483647);
 //solution.IsPerfectSquare(1);
