@@ -1,5 +1,11 @@
 ﻿//var solution = new Solution();
 
+#region Solution 719
+//solution.SmallestDistancePair(nums: [1, 3, 1], k: 1);
+//solution.SmallestDistancePair(nums: [1, 6, 1], k: 3);
+//solution.SmallestDistancePair(nums: [1, 2, 3, 4, 5], k: 10);
+#endregion
+
 #region Solution 4
 //solution.FindMedianSortedArrays(nums1: [2, 2, 4, 4], nums2: [2, 2, 2, 4, 4]);
 #endregion
