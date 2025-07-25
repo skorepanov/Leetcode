@@ -1,5 +1,9 @@
 ﻿//var solution = new Solution();
 
+#region Solution 410
+//solution.SplitArray(nums: [7, 2, 5, 10, 8], k: 2);
+#endregion
+
 #region Solution 719
 //solution.SmallestDistancePair(nums: [1, 3, 1], k: 1);
 //solution.SmallestDistancePair(nums: [1, 6, 1], k: 3);
