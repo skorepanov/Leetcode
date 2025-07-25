@@ -1,5 +1,9 @@
 ﻿//var solution = new Solution();
 
+#region Solution 4
+//solution.FindMedianSortedArrays(nums1: [2, 2, 4, 4], nums2: [2, 2, 2, 4, 4]);
+#endregion
+
 #region Solution 349
 //solution.Intersection(nums1: [4, 9, 5], nums2: [9, 4, 9, 8, 4]);
 #endregion
