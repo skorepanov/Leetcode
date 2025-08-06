@@ -1,7 +1,7 @@
-﻿// 144. Binary Tree Preorder Traversal
-public class Solution_144
+﻿// 145. Binary Tree Postorder Traversal
+public class Solution_145
 {
-    public IList<int> PreorderTraversal(TreeNode root)
+    public IList<int> PostorderTraversal(TreeNode root)
     {
         var traversal = new List<int>();
 
@@ -17,10 +17,9 @@ public class Solution_144
             return;
         }
 
-        traversal.Add(node.val);
-
         Traverse(node.left, traversal);
         Traverse(node.right, traversal);
+        traversal.Add(node.val);
     }
 
     public class TreeNode
