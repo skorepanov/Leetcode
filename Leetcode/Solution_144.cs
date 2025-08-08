@@ -1,5 +1,7 @@
 ﻿// 144. Binary Tree Preorder Traversal
-public class Solution_144
+
+#region Вариант 1 - Рекурсивный - Runtime 0 ms, Beats 100%
+public class Solution_144_1
 {
     public IList<int> PreorderTraversal(TreeNode root)
     {
@@ -37,3 +39,56 @@ public class Solution_144
         }
     }
 }
+#endregion
+
+#region Вариант 2 - Итеративный
+public class Solution_144_2
+{
+    public IList<int> PreorderTraversal(TreeNode root)
+    {
+        if (root is null)
+        {
+            return [];
+        }
+
+        var traversal = new List<int>();
+
+        var pendingNodes = new Stack<TreeNode>();
+        pendingNodes.Push(root);
+
+        TreeNode currentNode;
+
+        while (pendingNodes.Count > 0)
+        {
+            currentNode = pendingNodes.Pop();
+            traversal.Add(currentNode.val);
+
+            if (currentNode.right is not null)
+            {
+                pendingNodes.Push(currentNode.right);
+            }
+
+            if (currentNode.left is not null)
+            {
+                pendingNodes.Push(currentNode.left);
+            }
+        }
+
+        return traversal;
+    }
+
+    public class TreeNode
+    {
+        public int val;
+        public TreeNode left;
+        public TreeNode right;
+
+        public TreeNode(int val = 0, TreeNode left = null, TreeNode right = null)
+        {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+}
+#endregion
