@@ -1,5 +1,11 @@
 ﻿//var solution = new Solution();
 
+#region Solution 106
+//solution.BuildTree(inorder: [9, 3, 15, 20, 7], postorder: [9, 15, 7, 20, 3]);
+//solution.BuildTree(inorder: [2, 1], postorder: [2, 1]);
+//solution.BuildTree(inorder: [3, 2, 1], postorder: [3, 2, 1]);
+#endregion
+
 #region Solution 410
 //solution.SplitArray(nums: [7, 2, 5, 10, 8], k: 2);
 #endregion
