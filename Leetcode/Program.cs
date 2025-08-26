@@ -1,5 +1,13 @@
 ﻿//var solution = new Solution();
 
+#region Solution 24
+// var head = new Solution.ListNode(1,
+//     new Solution.ListNode(2,
+//         new Solution.ListNode(3,
+//             new Solution.ListNode(4))));
+// solution.SwapPairs(head);
+#endregion
+
 #region Solution 106
 //solution.BuildTree(inorder: [9, 3, 15, 20, 7], postorder: [9, 15, 7, 20, 3]);
 //solution.BuildTree(inorder: [2, 1], postorder: [2, 1]);
