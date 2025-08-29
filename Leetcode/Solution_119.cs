@@ -1,5 +1,7 @@
 ﻿// 119. Pascal's Triangle II
-public class Solution_119
+
+#region Вариант 1 - Итеративно - Runtime 14 ms, Beats 4.06%
+public class Solution_119_1
 {
     public IList<int> GetRow(int rowIndex)
     {
@@ -59,3 +61,45 @@ public class Solution_119
         return resultRow;
     }
 }
+#endregion
+
+#region Вариант 2 - Рекурсивно - Runtime 4 ms, Beats 4.64%
+public class Solution_119_2
+{
+    private Dictionary<(int, int), int> _triangle;
+
+    public IList<int> GetRow(int rowIndex)
+    {
+        _triangle = new Dictionary<(int, int), int>();
+
+        var row = new List<int>();
+
+        for (var i = 0; i <= rowIndex; i++)
+        {
+            var cell = GetCellValue(rowIndex, i);
+            row.Add(cell);
+        }
+
+        return row;
+    }
+
+    private int GetCellValue(int rowIndex, int cellIndex)
+    {
+        if (rowIndex == 0 || cellIndex == 0 || cellIndex == rowIndex)
+        {
+            return 1;
+        }
+
+        if (_triangle.ContainsKey((rowIndex, cellIndex)))
+        {
+            return _triangle[(rowIndex, cellIndex)];
+        }
+
+        var value = GetCellValue(rowIndex - 1, cellIndex - 1)
+                  + GetCellValue(rowIndex - 1, cellIndex);
+
+        _triangle.Add((rowIndex, cellIndex), value);
+        return value;
+    }
+}
+#endregion
