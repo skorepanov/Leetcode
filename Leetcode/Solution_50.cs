@@ -102,3 +102,30 @@ public class Solution_50_2
     }
 }
 #endregion
+
+#region Вариант 3 - Рекурсия - Runtime 0 ms, Beats 100.00%
+public class Solution_50_3
+{
+    public double MyPow(double x, int n)
+    {
+        return MyPow(x, (long)n);
+    }
+
+    private double MyPow(double x, long n)
+    {
+        switch (n)
+        {
+            case 0:
+                return 1;
+            case < 0:
+                return MyPow(1 / x, Math.Abs(n));
+        }
+
+        return n % 2 == 1
+            // x^n => x*x^(n-1)
+            ? x * MyPow(x, n - 1)
+            // x^n => (x^2)^(n/2)
+            : MyPow(x * x, n / 2);
+    }
+}
+#endregion
