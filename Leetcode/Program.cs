@@ -1,5 +1,10 @@
 ﻿//var solution = new Solution();
 
+#region Solution 779
+//solution.KthGrammar(3, 3);
+//solution.KthGrammar(30, 434991989);
+#endregion
+
 #region Solution 206
 // solution.ReverseList(
 //     new Solution.ListNode(1,
