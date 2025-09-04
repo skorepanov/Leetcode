@@ -1,5 +1,9 @@
 ﻿//var solution = new Solution();
 
+#region Solution 95
+//solution.GenerateTrees(3);
+#endregion
+
 #region Solution 779
 //solution.KthGrammar(3, 3);
 //solution.KthGrammar(30, 434991989);
