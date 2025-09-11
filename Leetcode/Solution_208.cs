@@ -8,11 +8,12 @@
  * bool param_3 = obj.StartsWith(prefix);
  */
 
-public class Trie_208
+#region Вариант 1 - Рекурсивно
+public class Trie_208_1
 {
     private readonly TrieNode _root = new ();
 
-    public Trie_208() { }
+    public Trie_208_1() { }
 
     public void Insert(string word)
     {
@@ -104,3 +105,77 @@ public class Trie_208
         }
     }
 }
+#endregion
+
+#region Вариант 2 - Итеративно
+public class Trie_208_2
+{
+    private readonly TrieNode _root = new ();
+
+    public Trie_208_2() { }
+
+    public void Insert(string word)
+    {
+        var node = _root;
+
+        foreach (var symbol in word)
+        {
+            if (!node.Children.ContainsKey(symbol))
+            {
+                node.Children.Add(symbol, new TrieNode());
+            }
+
+            node = node.Children[symbol];
+        }
+
+        node.SetAsWord();
+    }
+
+    public bool Search(string word)
+    {
+        var node = _root;
+
+        foreach (var symbol in word)
+        {
+            if (!node.Children.ContainsKey(symbol))
+            {
+                return false;
+            }
+
+            node = node.Children[symbol];
+        }
+
+        return node.IsWord;
+    }
+
+    public bool StartsWith(string prefix)
+    {
+        var node = _root;
+
+        foreach (var symbol in prefix)
+        {
+            if (!node.Children.ContainsKey(symbol))
+            {
+                return false;
+            }
+
+            node = node.Children[symbol];
+        }
+
+        return true;
+    }
+
+    private class TrieNode
+    {
+        public bool IsWord { get; private set; }
+        public readonly Dictionary<char, TrieNode> Children = new();
+
+        public TrieNode() { }
+
+        public void SetAsWord()
+        {
+            IsWord = true;
+        }
+    }
+}
+#endregion
