@@ -1,5 +1,15 @@
 ﻿//var solution = new Solution();
 
+#region
+// var trie = new Trie();
+// trie.Insert("apple");
+// var res1 = trie.Search("apple");   // return True
+// var res2 = trie.Search("app");     // return False
+// var res3 = trie.StartsWith("app"); // return True
+// trie.Insert("app");
+// var res4 = trie.Search("app");     // return True
+#endregion
+
 #region Solution 95
 //solution.GenerateTrees(3);
 #endregion
