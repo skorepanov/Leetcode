@@ -1,6 +1,18 @@
 ﻿//var solution = new Solution();
 
-#region
+#region Solution 677
+// var mapSum = new MapSum();
+// mapSum.Insert("apple", 3);
+// var res1 = mapSum.Sum("ap");           // return 3 (apple = 3)
+// mapSum.Insert("app", 2);
+// var res2 = mapSum.Sum("ap");           // return 5 (apple + app = 3 + 2 = 5)
+
+//var mapSum = new MapSum();
+// mapSum.Insert("a", 3);
+// var res1 = mapSum.Sum("ap");
+#endregion
+
+#region Solution 208
 // var trie = new Trie();
 // trie.Insert("apple");
 // var res1 = trie.Search("apple");   // return True
