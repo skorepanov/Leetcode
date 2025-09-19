@@ -1,5 +1,5 @@
 ﻿// 95. Unique Binary Search Trees II
-public class Solution
+public class Solution_95
 {
     public IList<TreeNode> GenerateTrees(int n)
     {
