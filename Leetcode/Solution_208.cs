@@ -20,14 +20,14 @@ public class Trie_208_1
         Insert(word, _root, index: 0);
     }
 
-    private void Insert(string word, TrieNode root, int index)
+    private void Insert(string word, TrieNode node, int index)
     {
-        if (!root.Children.TryGetValue(word[index], out var node))
+        if (!node.Children.TryGetValue(word[index], out var child))
         {
             var isWord = word.Length == index + 1;
             var newNode = new TrieNode(isWord);
 
-            root.Children.Add(word[index], newNode);
+            node.Children.Add(word[index], newNode);
 
             if (isWord)
             {
@@ -40,11 +40,11 @@ public class Trie_208_1
 
         if (word.Length == index + 1)
         {
-            node.SetAsWord();
+            child.SetAsWord();
             return;
         }
 
-        Insert(word, node, index + 1);
+        Insert(word, child, index + 1);
     }
 
     public bool Search(string word)
@@ -52,19 +52,19 @@ public class Trie_208_1
         return Search(word, _root, index: 0);
     }
 
-    private bool Search(string word, TrieNode root, int index)
+    private bool Search(string word, TrieNode node, int index)
     {
-        if (!root.Children.TryGetValue(word[index], out var node))
+        if (!node.Children.TryGetValue(word[index], out var child))
         {
             return false;
         }
 
         if (word.Length == index + 1)
         {
-            return node.IsWord;
+            return child.IsWord;
         }
 
-        return Search(word, node, index + 1);
+        return Search(word, child, index + 1);
     }
 
     public bool StartsWith(string prefix)
