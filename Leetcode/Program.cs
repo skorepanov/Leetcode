@@ -1,5 +1,16 @@
 ﻿//var solution = new Solution();
 
+#region Solution 211
+// var wordDictionary = new WordDictionary();
+// wordDictionary.AddWord("bad");
+// wordDictionary.AddWord("dad");
+// wordDictionary.AddWord("mad");
+// var result1 = wordDictionary.Search("pad"); // return False
+// var result2 = wordDictionary.Search("bad"); // return True
+// var result3 = wordDictionary.Search(".ad"); // return True
+// var result4 = wordDictionary.Search("b.."); // return True
+#endregion
+
 #region Solution 677
 // var mapSum = new MapSum();
 // mapSum.Insert("apple", 3);
