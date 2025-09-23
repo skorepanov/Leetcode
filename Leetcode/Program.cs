@@ -1,5 +1,48 @@
 ﻿//var solution = new Solution();
 
+#region Solution 642
+// // test case 1
+// var autocompleteSystem = new AutocompleteSystem(
+//     sentences: ["i love you", "island", "iroman", "i love leetcode"],
+//     times: [5, 3, 2, 2]);
+// var result1 = autocompleteSystem.Input('i');
+// var result2 = autocompleteSystem.Input(' ');
+// var result3 = autocompleteSystem.Input('a');
+// var result4 = autocompleteSystem.Input('#');
+//
+// var result5 = autocompleteSystem.Input('i');
+// var result6 = autocompleteSystem.Input(' ');
+// var result7 = autocompleteSystem.Input('a');
+// var result8 = autocompleteSystem.Input('#');
+//
+// var result9 = autocompleteSystem.Input('i');
+// var result10 = autocompleteSystem.Input(' ');
+// var result11 = autocompleteSystem.Input('a');
+// var result12 = autocompleteSystem.Input('#');
+
+// // test case 2
+// var autocompleteSystem = new AutocompleteSystem(
+//     sentences: ["abc","abbc","a"],
+//     times: [3,3,3]);
+// var result1 = autocompleteSystem.Input('b');
+// var result2 = autocompleteSystem.Input('c');
+// var result3 = autocompleteSystem.Input('#');
+//
+// var result4 = autocompleteSystem.Input('b');
+// var result5 = autocompleteSystem.Input('c');
+// var result6 = autocompleteSystem.Input('#');
+//
+// var result7 = autocompleteSystem.Input('a');
+// var result8 = autocompleteSystem.Input('b');
+// var result9 = autocompleteSystem.Input('c');
+// var result10 = autocompleteSystem.Input('#');
+//
+// var result11 = autocompleteSystem.Input('a');
+// var result12 = autocompleteSystem.Input('b');
+// var result13 = autocompleteSystem.Input('c');
+// var result14 = autocompleteSystem.Input('#');
+#endregion
+
 #region Solution 211
 // var wordDictionary = new WordDictionary();
 // wordDictionary.AddWord("bad");
