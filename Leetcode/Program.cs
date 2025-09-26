@@ -1,5 +1,26 @@
 ﻿//var solution = new Solution();
 
+#region Solution 212
+// var result = solution.FindWords(
+//     board:
+//     [
+//         ['o', 'a', 'a', 'n'],
+//         ['e', 't', 'a', 'e'],
+//         ['i', 'h', 'k', 'r'],
+//         ['i', 'f', 'l', 'v']
+//     ],
+//     words: ["oath", "pea", "eat", "rain"]);
+
+// var result = solution.FindWords(
+//     board:
+//     [
+//         ['a', 'b', 'c', 'e'], ['x', 'x', 'c', 'd'], ['x', 'x', 'b', 'a']
+//     ],
+//     words: ["abcd"]);
+
+//var result = solution.FindWords(board: [['a', 'a', 'a']], words: ["aaa"]);
+#endregion
+
 #region Solution 642
 // // test case 1
 // var autocompleteSystem = new AutocompleteSystem(
