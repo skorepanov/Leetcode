@@ -1,5 +1,9 @@
 ﻿//var solution = new Solution();
 
+#region Solution 425
+//var result = solution.WordSquares(words: ["area", "lead", "wall", "lady", "ball"]);
+#endregion
+
 #region Solution 212
 // var result = solution.FindWords(
 //     board:
