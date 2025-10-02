@@ -1,5 +1,7 @@
 ﻿// 700. Search in a Binary Search Tree
-public class Solution_700
+
+#region Вариант 1 - Рекурсивно - Runtime 0 ms, Beats 100.00%; Memory: 50.90 MB, Beats 94.30%
+public class Solution_700_1
 {
     public TreeNode SearchBST(TreeNode root, int val)
     {
@@ -32,3 +34,35 @@ public class Solution_700
         }
     }
 }
+#endregion
+
+#region Вариант 2 - Итеративно - Runtime 0 ms, Beats 100.00%; Memory: 51.33 MB, Beats 34.83%
+public class Solution_700_2
+{
+    public TreeNode SearchBST(TreeNode root, int val)
+    {
+        var node = root;
+
+        while (node is not null && node.val != val)
+        {
+            node = val < node.val ? node.left : node.right;
+        }
+
+        return node;
+    }
+
+    public class TreeNode
+    {
+        public int val;
+        public TreeNode left;
+        public TreeNode right;
+
+        public TreeNode(int val = 0, TreeNode left = null, TreeNode right = null)
+        {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+}
+#endregion
