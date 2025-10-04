@@ -1,5 +1,20 @@
 ﻿//var solution = new Solution();
 
+#region Solution 450
+// var root = new Solution.TreeNode(
+//     val: 5,
+//     left: new Solution.TreeNode(
+//         val: 3,
+//         left: new Solution.TreeNode(2),
+//         right: new Solution.TreeNode(4)),
+//     right: new Solution.TreeNode(
+//         val: 6,
+//         left: null,
+//         right: new Solution.TreeNode(7)));
+//
+// var result = solution.DeleteNode(root, key: 7);
+#endregion
+
 #region Solution 425
 //var result = solution.WordSquares(words: ["area", "lead", "wall", "lady", "ball"]);
 #endregion
