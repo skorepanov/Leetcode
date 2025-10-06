@@ -1,5 +1,17 @@
 ﻿//var solution = new Solution();
 
+#region Solution 703
+// var solution = new KthLargest_703_2(k: 3, nums: [4, 5, 8, 2]);
+// var result1 = solution.Add(3);
+// var result2 = solution.Add(5);
+// var result3 = solution.Add(10);
+// var result4 = solution.Add(9);
+// var result5 = solution.Add(4);
+
+// var solution = new KthLargest(k: 4, nums: [5, 6, 7, 2, 1, 4]);
+// var result1 = solution.Add(3);
+#endregion
+
 #region Solution 450
 // var root = new Solution.TreeNode(
 //     val: 5,
