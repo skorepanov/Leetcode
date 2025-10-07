@@ -1,5 +1,10 @@
 ﻿//var solution = new Solution();
 
+#region Solution 220
+// var result = solution
+//     .ContainsNearbyAlmostDuplicate(nums: [1, 5, 9, 1, 5, 9], indexDiff: 2, valueDiff: 3);
+#endregion
+
 #region Solution 703
 // var solution = new KthLargest_703_2(k: 3, nums: [4, 5, 8, 2]);
 // var result1 = solution.Add(3);
