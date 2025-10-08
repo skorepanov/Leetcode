@@ -1,5 +1,20 @@
 ﻿//var solution = new Solution();
 
+#region Solution 110
+// var root = new Solution.TreeNode(
+//     val: 1,
+//     left: new Solution.TreeNode(
+//         val: 2,
+//         left: new Solution.TreeNode(
+//             val: 4,
+//             left: new Solution.TreeNode(8)),
+//         right: new Solution.TreeNode(5)),
+//     right: new Solution.TreeNode(
+//         val: 3,
+//         left: new Solution.TreeNode(6)));
+// var result = solution.IsBalanced(root);
+#endregion
+
 #region Solution 220
 // var result = solution
 //     .ContainsNearbyAlmostDuplicate(nums: [1, 5, 9, 1, 5, 9], indexDiff: 2, valueDiff: 3);
