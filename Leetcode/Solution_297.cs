@@ -1,7 +1,7 @@
 ﻿// 297. Serialize and Deserialize Binary Tree
 using System.Text.Json;
 
-public class Codec
+public class Codec_297
 {
     // Encodes a tree to a single string.
     public string serialize(TreeNode root)

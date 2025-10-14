@@ -1,5 +1,25 @@
 ﻿//var solution = new Solution();
 
+#region Solution 431
+// var codec = new Codec();
+//
+// var naryRoot = new Codec.Node(
+//     _val: 1,
+//     _children:
+//     [
+//         new Codec.Node(_val: 3, _children:
+//         [
+//             new Codec.Node(_val: 5),
+//             new Codec.Node(_val: 6)
+//         ]),
+//         new Codec.Node(_val: 2),
+//         new Codec.Node(_val: 4)
+//     ]);
+//
+// var binaryRoot = codec.encode(naryRoot);
+// var decodedNaryRoot = codec.decode(binaryRoot);
+#endregion
+
 #region Solution 108
 //var result = solution.SortedArrayToBST(nums: [-10, -3, 0, 5, 9]);
 #endregion
