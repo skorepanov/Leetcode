@@ -1,5 +1,11 @@
 ﻿//var solution = new Solution();
 
+#region Solution Calculate Maximum Information Gain
+// solution.CalculateMaxInfoGain(
+//     petal_length: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+//     species: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]);
+#endregion
+
 #region Solution Calculate Entropy
 //var result = solution.CalculateEntropy(input: [1, 1, 2, 2]);
 #endregion
