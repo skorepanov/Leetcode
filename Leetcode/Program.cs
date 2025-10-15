@@ -1,5 +1,9 @@
 ﻿//var solution = new Solution();
 
+#region Solution Calculate Entropy
+//var result = solution.CalculateEntropy(input: [1, 1, 2, 2]);
+#endregion
+
 #region Solution 431
 // var codec = new Codec();
 //
