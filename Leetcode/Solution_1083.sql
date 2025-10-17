@@ -1,4 +1,5 @@
-﻿select distinct
+﻿-- 1083. Sales Analysis II
+select distinct
     s.buyer_id
 from Sales s
     inner join Product p
