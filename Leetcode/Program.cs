@@ -1,5 +1,9 @@
 ﻿//var solution = new Solution();
 
+#region Solution 52
+// var result = solution.TotalNQueens(4);
+#endregion
+
 #region Solution 240
 // var result = solution.SearchMatrix(
 //     matrix:
