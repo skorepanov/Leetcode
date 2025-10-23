@@ -1,4 +1,8 @@
-﻿//var solution = new Solution();
+﻿// var solution = new Solution();
+
+#region Solution 77
+// var result = solution.Combine(n: 4, k: 2);
+#endregion
 
 #region Solution 37
 // solution.SolveSudoku(board:
