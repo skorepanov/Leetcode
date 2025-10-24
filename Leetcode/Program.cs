@@ -1,5 +1,9 @@
 ﻿// var solution = new Solution();
 
+#region Solution 100
+// var result = solution.GenerateParenthesis(n: 3);
+#endregion
+
 #region Solution 77
 // var result = solution.Combine(n: 4, k: 2);
 #endregion
