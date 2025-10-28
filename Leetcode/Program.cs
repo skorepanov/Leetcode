@@ -1,5 +1,17 @@
 ﻿// var solution = new Solution();
 
+#region Solution 218
+// var result = solution.GetSkyline(buildings:
+//     [
+//         [2, 9, 10],
+//         [3, 7, 15],
+//         [5, 12, 12],
+//         [15, 20, 10],
+//         [19, 24, 8]
+//     ]);
+// var result = solution.GetSkyline(buildings: [[0, 2147483647, 2147483647]]);
+#endregion
+
 #region Solution 17
 // var result = solution.LetterCombinations(digits: "23");
 #endregion
