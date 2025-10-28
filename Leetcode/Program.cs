@@ -1,5 +1,9 @@
 ﻿// var solution = new Solution();
 
+#region Solution 84
+// var result = solution.LargestRectangleArea(heights: [6, 7, 5, 2, 4, 9, 3]);
+#endregion
+
 #region Solution 100
 // var result = solution.GenerateParenthesis(n: 3);
 #endregion
