@@ -1,5 +1,29 @@
 ﻿// var solution = new Solution();
 
+#region Solution 1349
+// var result = solution.MaxStudents(seats:
+//     [
+//         ['#', '.', '#', '#', '.', '#'],
+//         ['.', '#', '#', '#', '#', '.'],
+//         ['#', '.', '#', '#', '.', '#']
+//     ]);
+
+// var result = solution.MaxStudents(seats:
+// [
+//     ['#','.','.','.','#'],
+//     ['.','#','.','#','.'],
+//     ['.','.','#','.','.'],
+//     ['.','#','.','#','.'],
+//     ['#','.','.','.','#']
+// ]);
+
+// var result = solution.MaxStudents(seats:
+// [
+//     ['.','#','.'],
+//     ['#','.','#']
+// ]);
+#endregion
+
 #region Solution 218
 // var result = solution.GetSkyline(buildings:
 //     [
