@@ -1,5 +1,5 @@
 ﻿// 136. Single Number
-#region 1 вариант - с помощью HashSet
+#region 1 вариант - С помощью HashSet
 public class Solution_136_1
 {
     public int SingleNumber(int[] nums)
@@ -23,13 +23,13 @@ public class Solution_136_1
 }
 #endregion
 
-#region 2 вариант - с помощью XOR
+#region 2 вариант - С помощью XOR
 public class Solution_136_2
 {
     /*
-    a⊕0=a
-    a⊕a=0
-    a⊕b⊕a=(a⊕a)⊕b=0⊕b=b
+    a ⊕ 0 = a
+    a ⊕ a = 0
+    a ⊕ b ⊕ a = (a ⊕ a) ⊕ b = 0 ⊕ b = b
     */
 
     public int SingleNumber(int[] nums)
