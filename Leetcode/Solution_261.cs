@@ -1,9 +1,6 @@
 ﻿// 261. Graph Valid Tree
 public class Solution_261
 {
-    private readonly Dictionary<int, int> _root = new ();
-    private readonly Dictionary<int, int> _rank = new ();
-
     public bool ValidTree(int n, int[][] edges)
     {
         var disjointSet = new DisjointSet(n, edges);
