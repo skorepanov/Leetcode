@@ -1,5 +1,9 @@
 ﻿// var solution = new Solution();
 
+#region Solution 1202
+// var result = solution.SmallestStringWithSwaps(s: "dcab", pairs: [[0, 3], [1, 2], [0, 2]]);
+#endregion
+
 #region Solution 547
 // var result = solution.FindCircleNum(isConnected:
 // [
