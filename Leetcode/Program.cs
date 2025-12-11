@@ -1,5 +1,19 @@
 ﻿// var solution = new Solution();
 
+#region Solution 332
+// var result1 = solution.FindItinerary(
+//     tickets: [["MUC", "LHR"], ["JFK", "MUC"], ["SFO", "SJC"], ["LHR", "SFO"]]);
+// var result2 = solution.FindItinerary(
+//     tickets:
+//     [
+//         ["JFK", "SFO"], ["JFK", "ATL"], ["SFO", "JFK"], ["ATL", "AAA"], ["AAA", "ATL"], ["ATL", "BBB"], ["BBB", "ATL"], ["ATL", "CCC"],
+//         ["CCC", "ATL"], ["ATL", "DDD"], ["DDD", "ATL"], ["ATL", "EEE"], ["EEE", "ATL"], ["ATL", "FFF"], ["FFF", "ATL"], ["ATL", "GGG"],
+//         ["GGG", "ATL"], ["ATL", "HHH"], ["HHH", "ATL"], ["ATL", "III"], ["III", "ATL"], ["ATL", "JJJ"], ["JJJ", "ATL"], ["ATL", "KKK"],
+//         ["KKK", "ATL"], ["ATL", "LLL"], ["LLL", "ATL"], ["ATL", "MMM"], ["MMM", "ATL"], ["ATL", "NNN"], ["NNN", "ATL"]
+//     ]);
+// Console.WriteLine(result1);
+#endregion
+
 #region Solution 797
 // var result = solution.AllPathsSourceTarget(graph: [[1, 2], [3], [3], []]);
 #endregion
