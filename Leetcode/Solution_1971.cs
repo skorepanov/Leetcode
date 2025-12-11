@@ -59,18 +59,18 @@ public class Solution_1971
             return true;
         }
 
-        var nextNodes = connections[currentNode];
+        var adjacentNodes = connections[currentNode];
 
-        foreach (var nextNode in nextNodes)
+        foreach (var adjacentNode in adjacentNodes)
         {
-            if (visitedNodes[nextNode])
+            if (visitedNodes[adjacentNode])
             {
                 continue;
             }
 
-            visitedNodes[nextNode] = true;
+            visitedNodes[adjacentNode] = true;
 
-            var isPathFounded = FindPath(nextNode, visitedNodes, destination, connections);
+            var isPathFounded = FindPath(adjacentNode, visitedNodes, destination, connections);
 
             if (isPathFounded)
             {
