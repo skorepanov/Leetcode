@@ -1,5 +1,9 @@
 ﻿// var solution = new Solution();
 
+#region Solution 1584
+// var result = solution.MinCostConnectPoints(points: [[0, 0], [2, 2], [3, 10], [5, 2], [7, 0]]);
+#endregion
+
 #region Solution 1091
 // var result = solution.ShortestPathBinaryMatrix(grid: [[0, 1], [1, 0]]);
 #endregion

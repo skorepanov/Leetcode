@@ -1,5 +1,7 @@
 ﻿// 1584. Min Cost to Connect All Points
-public class Solution_1584
+
+#region Вариант 1 - Kruskal’s Algorithm - Runtime 1055 ms, Beats 31.25%
+public class Solution_1584_1
 {
     public int MinCostConnectPoints(int[][] points)
     {
@@ -90,7 +92,7 @@ public class Solution_1584
 
         for (var i = 0; i < points.Length; i++)
         {
-            for (var j = 0; j < points.Length; j++)
+            for (var j = i + 1; j < points.Length; j++)
             {
                 if (i == j)
                 {
@@ -116,3 +118,80 @@ public class Solution_1584
 
     private record Distance(Point Point1, Point Point2, decimal MathDistance);
 }
+#endregion
+
+#region Вариант 2 - Prim’s Algorithm - Runtime 2377 ms, Beats 5.56%
+public class Solution_1584_2
+{
+    public int MinCostConnectPoints(int[][] points)
+    {
+        if (points.Length == 1)
+        {
+            return 0;
+        }
+
+        var distances = GetDistances(points);
+        var distanceSum = 0m;
+
+        var firstPoint = distances.Keys.First();
+
+        var visitedPoints = new Dictionary<Point, PriorityQueue<Distance, decimal>>();
+        visitedPoints.Add(firstPoint, distances[firstPoint]);
+
+        while (visitedPoints.Count < points.Length)
+        {
+            var distance = visitedPoints
+                .Select(p => p.Value.Peek())
+                .OrderBy(d => d.MathDistance)
+                .First();
+
+            visitedPoints[distance.Point1].Dequeue();
+
+            if (visitedPoints.ContainsKey(distance.Point2))
+            {
+                continue;
+            }
+
+            distanceSum += distance.MathDistance;
+            visitedPoints.Add(distance.Point2, distances[distance.Point2]);
+        }
+
+        return (int)distanceSum;
+    }
+
+    private Dictionary<Point, PriorityQueue<Distance, decimal>>
+        GetDistances(int[][] points)
+    {
+        var distances = new Dictionary<Point, PriorityQueue<Distance, decimal>>();
+
+        for (var i = 0; i < points.Length; i++)
+        {
+            var point1 = new Point(points[i][0], points[i][1]);
+            distances.Add(point1, new PriorityQueue<Distance, decimal>());
+
+            for (var j = 0; j < points.Length; j++)
+            {
+                if (i == j)
+                {
+                    continue;
+                }
+
+                var point2 = new Point(points[j][0], points[j][1]);
+
+                var mathDistance = Math.Abs(point1.X - point2.X)
+                                 + Math.Abs(point1.Y - point2.Y);
+
+                var distance = new Distance(point1, point2, mathDistance);
+
+                distances[point1].Enqueue(distance, distance.MathDistance);
+            }
+        }
+
+        return distances;
+    }
+
+    private record Point(int X, int Y);
+
+    private record Distance(Point Point1, Point Point2, decimal MathDistance);
+}
+#endregion
