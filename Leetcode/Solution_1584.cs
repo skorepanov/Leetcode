@@ -61,11 +61,19 @@ public class Solution_1584
             {
                 // если обе точки в разных группах -
                 // объединить группы
-                pointGroups.Remove(groupForPoint2);
+                var groupToRemove = groupForPoint1.Count > groupForPoint2.Count
+                    ? groupForPoint2
+                    : groupForPoint1;
 
-                foreach (var point in groupForPoint2)
+                var groupToPersist = groupForPoint1.Count > groupForPoint2.Count
+                    ? groupForPoint1
+                    : groupForPoint2;
+
+                pointGroups.Remove(groupToRemove);
+
+                foreach (var point in groupToRemove)
                 {
-                    groupForPoint1.Add(point);
+                    groupToPersist.Add(point);
                 }
             }
 
