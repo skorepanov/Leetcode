@@ -1,5 +1,14 @@
 ﻿// var solution = new Solution();
 
+#region Solution 787
+// var result = solution.FindCheapestPrice(
+//     n: 4,
+//     flights: [[0, 1, 1], [0, 2, 5], [1, 2, 1], [2, 3, 1]],
+//     src: 0,
+//     dst: 3,
+//     k: 1);
+#endregion
+
 #region Solution 743
 // var result = solution.NetworkDelayTime(
 //     times:

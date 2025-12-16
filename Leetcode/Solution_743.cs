@@ -8,10 +8,10 @@ public class Solution_743
         var timeByNode = Enumerable
             .Range(1, n)
             .ToDictionary(v => v, _ => (int?)null);
+        timeByNode[k] = 0;
 
         var pendingNodes = new Queue<int>();
         pendingNodes.Enqueue(k);
-        timeByNode[k] = 0;
 
         while (pendingNodes.Count > 0)
         {
@@ -19,22 +19,22 @@ public class Solution_743
 
             for (var i = 0; i < nodeCount; i++)
             {
-                var node = pendingNodes.Dequeue();
-                var weightToCurrentNode = timeByNode[node].Value;
+                var currentNode = pendingNodes.Dequeue();
+                var weightToCurrentNode = timeByNode[currentNode].Value;
 
-                if (!connections.ContainsKey(node))
+                if (!connections.ContainsKey(currentNode))
                 {
                     continue;
                 }
 
-                var nodeConnections = connections[node];
+                var nodeConnections = connections[currentNode];
 
                 foreach (var connection in nodeConnections)
                 {
                     var adjacentNode = connection.Item1;
-                    var weight = connection.Item2;
+                    var adjacentNodeWeight = connection.Item2;
 
-                    var weightToAdjacentNode = weightToCurrentNode + weight;
+                    var weightToAdjacentNode = weightToCurrentNode + adjacentNodeWeight;
 
                     if ((timeByNode[adjacentNode] ?? int.MaxValue) > weightToAdjacentNode)
                     {
