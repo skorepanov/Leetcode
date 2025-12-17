@@ -57,9 +57,8 @@ public class Solution_1631
                 {
                     differenceMatrix[adjacentX][adjacentY] = maxDifference;
 
-                    queue.Enqueue(
-                        new Cell(adjacentX, adjacentY, maxDifference),
-                        maxDifference);
+                    var adjacentCell = new Cell(adjacentX, adjacentY, maxDifference);
+                    queue.Enqueue(adjacentCell, adjacentCell.Difference);
                 }
             }
         }
