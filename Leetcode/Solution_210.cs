@@ -70,9 +70,9 @@ public class Solution_210
         }
     }
 
-    private int[] GetCoursesWithoutPrerequisites(Dictionary<int, HashSet<int>> prerequisites)
+    private int[] GetCoursesWithoutPrerequisites(Dictionary<int, HashSet<int>> graph)
     {
-        return prerequisites
+        return graph
             .Where(p => p.Value.Count == 0)
             .Select(p => p.Key)
             .ToArray();

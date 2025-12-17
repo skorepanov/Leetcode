@@ -1,5 +1,11 @@
 ﻿// var solution = new Solution();
 
+#region Solution 269
+// var result1 = solution.AlienOrder(words: ["wrt", "wrf", "er", "ett", "rftt"]);
+// var result2 = solution.AlienOrder(words: ["ab","adc"]);
+// var result3 = solution.AlienOrder(words:["z","z"]);
+#endregion
+
 #region Solution 787
 // var result = solution.FindCheapestPrice(
 //     n: 4,
