@@ -1,5 +1,9 @@
 ﻿// var solution = new Solution();
 
+#region Solution 746
+// var result = solution.MinCostClimbingStairs(cost: [10, 15, 20]);
+#endregion
+
 #region Solution 1136
 // var result = solution.MinimumSemesters(
 //     n: 3,
