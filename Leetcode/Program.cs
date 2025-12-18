@@ -1,5 +1,11 @@
 ﻿// var solution = new Solution();
 
+#region Solution 1136
+// var result = solution.MinimumSemesters(
+//     n: 3,
+//     relations: [[1, 3], [2, 3]]);
+#endregion
+
 #region Solution 269
 // var result1 = solution.AlienOrder(words: ["wrt", "wrf", "er", "ett", "rftt"]);
 // var result2 = solution.AlienOrder(words: ["ab","adc"]);
