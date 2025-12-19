@@ -1,5 +1,9 @@
 ﻿// var solution = new Solution();
 
+#region Solution 740
+// var result = solution.DeleteAndEarn(nums: [3, 4, 2]);
+#endregion
+
 #region Solution 746
 // var result = solution.MinCostClimbingStairs(cost: [10, 15, 20]);
 #endregion
