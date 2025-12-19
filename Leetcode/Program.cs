@@ -1,5 +1,9 @@
 ﻿// var solution = new Solution();
 
+#region Solution 1770
+// var result = solution.MaximumScore(nums: [1, 2, 3], multipliers: [3, 2, 1]);
+#endregion
+
 #region Solution 740
 // var result = solution.DeleteAndEarn(nums: [3, 4, 2]);
 #endregion
