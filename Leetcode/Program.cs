@@ -1,5 +1,10 @@
 ﻿// var solution = new Solution();
 
+#region Solution 122
+// var result = solution.MaxProfit(prices: [7, 1, 5, 3, 6, 4]);
+// var result = solution.MaxProfit(prices: [2, 1, 4]);
+#endregion
+
 #region Solution 1770
 // var result = solution.MaximumScore(nums: [1, 2, 3], multipliers: [3, 2, 1]);
 #endregion
