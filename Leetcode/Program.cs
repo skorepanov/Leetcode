@@ -1,5 +1,10 @@
 ﻿// var solution = new Solution();
 
+#region Solution 7
+// var result = solution.Reverse(x: -2147483412);
+// var result = solution.Reverse(x: -2147483648);
+#endregion
+
 #region Solution 122
 // var result = solution.MaxProfit(prices: [7, 1, 5, 3, 6, 4]);
 // var result = solution.MaxProfit(prices: [2, 1, 4]);
