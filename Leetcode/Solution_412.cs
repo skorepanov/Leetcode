@@ -3,7 +3,7 @@ public class Solution_412
 {
     public IList<string> FizzBuzz(int n)
     {
-        var answers = new List<string>();
+        var answers = new string[n];
 
         for (var i = 1; i <= n; i++)
         {
@@ -12,19 +12,19 @@ public class Solution_412
 
             if (isDivisibleBy3 && isDivisibleBy5)
             {
-                answers.Add("FizzBuzz");
+                answers[i - 1] = "FizzBuzz";
             }
             else if (isDivisibleBy3)
             {
-                answers.Add("Fizz");
+                answers[i - 1] = "Fizz";
             }
             else if (isDivisibleBy5)
             {
-                answers.Add("Buzz");
+                answers[i - 1] = "Buzz";
             }
             else
             {
-                answers.Add(i.ToString());
+                answers[i - 1] = i.ToString();
             }
         }
 
