@@ -1,5 +1,16 @@
 ﻿// var solution = new Solution();
 
+#region Solution 48
+// solution.Rotate(matrix: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]);
+// solution.Rotate(matrix:
+// [
+//     [5,  1,  9,  11],
+//     [2,  4,  8,  10],
+//     [13, 3,  6,  7],
+//     [15, 14, 12, 16]
+// ]);
+#endregion
+
 #region Solution 7
 // var result = solution.Reverse(x: -2147483412);
 // var result = solution.Reverse(x: -2147483648);
