@@ -1,5 +1,9 @@
 ﻿// var solution = new Solution();
 
+#region Solution 1143
+// var result = solution.LongestCommonSubsequence(text1: "abcde", text2: "ace");
+#endregion
+
 #region Solution 48
 // solution.Rotate(matrix: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]);
 // solution.Rotate(matrix:
