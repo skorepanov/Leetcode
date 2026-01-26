@@ -17,13 +17,13 @@ public class Solution_1143
 
     private void InitializeCache()
     {
-        _cache = new int[_text1.Length + 1][];
+        _cache = new int[_text1.Length][];
 
-        for (var i = 0; i <= _text1.Length; i++)
+        for (var i = 0; i < _text1.Length; i++)
         {
-            _cache[i] = new int[_text2.Length + 1];
+            _cache[i] = new int[_text2.Length];
 
-            for (var j = 0; j <= _text2.Length; j++)
+            for (var j = 0; j < _text2.Length; j++)
             {
                 _cache[i][j] = -1;
             }
