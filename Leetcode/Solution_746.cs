@@ -62,3 +62,31 @@ public class Solution_746_2
     }
 }
 #endregion
+
+#region Вариант 3 - Bottom-up - Space complexity O(1)
+// Runtime 0 ms, Beats 100.00%
+// Memory 42.90 MB, Beats 97.81%
+
+public class Solution_746_3
+{
+    public int MinCostClimbingStairs(int[] cost)
+    {
+        var stepMinus2 = 0;
+        var stepMinus1 = 0;
+        var lastStep = 0;
+
+        for (var i = 2; i < cost.Length + 1; i++)
+        {
+            stepMinus2 = stepMinus1;
+            stepMinus1 = lastStep;
+
+            var costForStepMinus1 = stepMinus1 + cost[i - 1];
+            var costForStepMinus2 = stepMinus2 + cost[i - 2];
+
+            lastStep = Math.Min(costForStepMinus1, costForStepMinus2);
+        }
+
+        return lastStep;
+    }
+}
+#endregion
