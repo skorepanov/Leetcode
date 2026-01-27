@@ -1,14 +1,19 @@
 ﻿// 746. Min Cost Climbing Stairs
-public class Solution_746
+
+#region Вариант 1 - Top-down - Space complexity O(n)
+// Runtime 1 ms, Beats 43.98%
+// Memory 44.55 MB, Beats 14.05%
+
+public class Solution_746_1
 {
     private readonly Dictionary<int, int> _cache = new ();
 
     public int MinCostClimbingStairs(int[] cost)
     {
-        return MinCostClimbingStairs(cost, step: cost.Length);
+        return Dp(cost, step: cost.Length);
     }
 
-    private int MinCostClimbingStairs(int[] cost, int step)
+    private int Dp(int[] cost, int step)
     {
         if (step <= 1)
         {
@@ -20,8 +25,8 @@ public class Solution_746
             return value;
         }
 
-        var costForStepMinus1 = MinCostClimbingStairs(cost, step - 1) + cost[step - 1];
-        var costForStepMinus2 = MinCostClimbingStairs(cost, step - 2) + cost[step - 2];
+        var costForStepMinus1 = Dp(cost, step - 1) + cost[step - 1];
+        var costForStepMinus2 = Dp(cost, step - 2) + cost[step - 2];
 
         var min = Math.Min(costForStepMinus1, costForStepMinus2);
 
@@ -30,3 +35,30 @@ public class Solution_746
         return min;
     }
 }
+#endregion
+
+#region Вариант 2 - Bottom-up - Space complexity O(n)
+// Runtime 0 ms, Beats 100.00%
+// Memory 43.47 MB, Beats 55.11%
+
+public class Solution_746_2
+{
+    public int MinCostClimbingStairs(int[] cost)
+    {
+        var cache = new int[cost.Length + 1];
+
+        cache[0] = 0;
+        cache[1] = 0;
+
+        for (var i = 2; i < cost.Length + 1; i++)
+        {
+            var costForStepMinus1 = cache[i - 1] + cost[i - 1];
+            var costForStepMinus2 = cache[i - 2] + cost[i - 2];
+
+            cache[i] = Math.Min(costForStepMinus1, costForStepMinus2);
+        }
+
+        return cache[^1];
+    }
+}
+#endregion
