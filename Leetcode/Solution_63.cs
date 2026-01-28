@@ -8,21 +8,21 @@ public class Solution_63
             return 0;
         }
 
-        var m = obstacleGrid.Length;
-        var n = obstacleGrid[0].Length;
+        var rowCount = obstacleGrid.Length;
+        var columnCount = obstacleGrid[0].Length;
 
-        var cache = new int[m][];
+        var cache = new int[rowCount][];
 
-        for (var i = 0; i < cache.Length; i++)
+        for (var row = 0; row < cache.Length; row++)
         {
-            cache[i] = new int[n];
+            cache[row] = new int[columnCount];
         }
 
         cache[0][0] = 1;
 
-        for (var row = 0; row < m; row++)
+        for (var row = 0; row < rowCount; row++)
         {
-            for (var column = 0; column < n; column++)
+            for (var column = 0; column < columnCount; column++)
             {
                 if (row > 0 && obstacleGrid[row][column] == 0)
                 {
@@ -36,6 +36,6 @@ public class Solution_63
             }
         }
 
-        return cache[m - 1][n - 1];
+        return cache[rowCount - 1][columnCount - 1];
     }
 }
