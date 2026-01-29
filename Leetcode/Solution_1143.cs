@@ -1,62 +1,55 @@
 ﻿// 1143. Longest Common Subsequence
 public class Solution_1143
 {
-    private int[][] _cache;
     private string _text1;
     private string _text2;
+    private int[][] _cache;
 
     public int LongestCommonSubsequence(string text1, string text2)
     {
         _text1 = text1;
         _text2 = text2;
 
-        InitializeCache();
-
-        return Dp(i: 0, j: 0);
-    }
-
-    private void InitializeCache()
-    {
         _cache = new int[_text1.Length][];
 
         for (var i = 0; i < _text1.Length; i++)
         {
             _cache[i] = new int[_text2.Length];
-
-            for (var j = 0; j < _text2.Length; j++)
-            {
-                _cache[i][j] = -1;
-            }
+            Array.Fill(_cache[i], value: -1);
         }
+
+        return Dp(text1Index: 0, text2Index: 0);
     }
 
-    private int Dp(int i, int j)
+    private int Dp(int text1Index, int text2Index)
     {
-        if (i >= _text1.Length || j >= _text2.Length)
+        if (text1Index >= _text1.Length
+         || text2Index >= _text2.Length)
         {
             return 0;
         }
 
-        if (_cache[i][j] != -1)
+        if (_cache[text1Index][text2Index] != -1)
         {
-            return _cache[i][j];
+            return _cache[text1Index][text2Index];
         }
 
         int answer;
 
-        if (_text1[i] == _text2[j])
+        if (_text1[text1Index] == _text2[text2Index])
         {
-            answer = Dp(i + 1, j + 1) + 1;
+            answer = Dp(text1Index + 1, text2Index + 1) + 1;
         }
         else
         {
-            var option1 = Dp(i + 1, j);
-            var option2 = Dp(i, j + 1);
+            var option1 = Dp(text1Index + 1, text2Index);
+            var option2 = Dp(text1Index, text2Index + 1);
+
             answer = Math.Max(option1, option2);
         }
 
-        _cache[i][j] = answer;
+        _cache[text1Index][text2Index] = answer;
 
-        return _cache[i][j];
+        return _cache[text1Index][text2Index];
     }
 }
