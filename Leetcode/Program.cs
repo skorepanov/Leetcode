@@ -1,5 +1,14 @@
 ﻿// var solution = new Solution();
 
+#region Solution 1473
+// solution.MinCost(
+//     houses: [0, 0, 0, 0, 0],
+//     cost: [[1, 10], [10, 1], [10, 1], [1, 10], [5, 1]],
+//     m: 5,
+//     n: 2,
+//     target: 3);
+#endregion
+
 #region Solution 1143
 // var result = solution.LongestCommonSubsequence(text1: "abcde", text2: "ace");
 #endregion
