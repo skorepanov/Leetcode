@@ -1,4 +1,5 @@
-﻿// var solution = new Solution();
+﻿var solution = new Solution();
+solution.Average(salary: [4000, 3000, 1000, 2000]);
 
 #region Solution 48
 // solution.Rotate(matrix: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]);
