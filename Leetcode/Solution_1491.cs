@@ -17,7 +17,7 @@ public class Solution_1491_1
 #region Вариант 2
 // Runtime 0 ms, Beats 100.00%
 // Memory 42.00 MB, Beats 30.77%
-public class Solution
+public class Solution_1491_2
 {
     public double Average(int[] salary)
     {
