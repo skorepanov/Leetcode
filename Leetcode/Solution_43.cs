@@ -1,7 +1,7 @@
 ﻿// 43. Multiply Strings
 using System.Text;
 
-public class Solution
+public class Solution_43
 {
     public string Multiply(string num1, string num2)
     {
