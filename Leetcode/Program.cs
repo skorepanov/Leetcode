@@ -1,6 +1,20 @@
 ﻿//var solution = new Solution();
 
 
+#region Solution 1472
+// var solution = new BrowserHistory("leetcode.com");
+// solution.Visit("google.com");
+// solution.Visit("facebook.com");
+// solution.Visit("youtube.com");
+// var res1 = solution.Back(1);
+// var res2 = solution.Back(1);
+// var res3 = solution.Forward(1);
+// solution.Visit("linkedin.com");
+// var res4 = solution.Back(2);
+// var res5 = solution.Back(2);
+// var res6 = solution.Back(7);
+#endregion
+
 #region Solution 48
 // solution.Rotate(matrix: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]);
 
