@@ -1,7 +1,7 @@
 ﻿// 345. Reverse Vowels of a String
 using System.Text;
 
-public class Solution
+public class Solution_345
 {
     public string ReverseVowels(string s)
     {
