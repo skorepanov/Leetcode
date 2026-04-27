@@ -1,0 +1,5 @@
+﻿-- 2985. Calculate Compressed Mean
+select
+    round(sum(item_count * order_occurrences)::numeric / sum(order_occurrences), 2)
+        as average_items_per_order
+from Orders
